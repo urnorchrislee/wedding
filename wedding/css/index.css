@@ -9,7 +9,7 @@ section{
 }
 
 section.p1{
-    background: black;
+    background: #fff;
 }
 
 section.p2{
@@ -54,7 +54,7 @@ section.p5{
 }
 
 .gps li.cur{
-    background-color: #fff;
+    background-color: orangered;
 }
 
 #scroll{
@@ -71,6 +71,20 @@ section.p5{
 @keyframes upAndDown {
     0%{transform:translateX(0px) translateY(10px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1)}
     100%{transform:translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1)}
+}
+
+#hd-music{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    background: url("../images/normalmusic.svg");
+}
+
+#hd-music img {
+    vertical-align: middle;
 }
 
 
