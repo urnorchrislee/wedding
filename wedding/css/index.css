@@ -9,7 +9,7 @@ section{
 }
 
 section.p1{
-    background: #fff;
+    background: url("../images/Fgb4Zhh80EEn6US7XHoekvQd0hyj.png");
 }
 
 section.p2{
@@ -85,6 +85,52 @@ section.p5{
 
 #hd-music img {
     vertical-align: middle;
+}
+
+/* *********************************************** */
+.p1 .p1-container{
+    width: 100%;
+    height: 100%;
+    background: url("../images/o_1b26hd0jq7qjfdpeu5g4h81r.png") no-repeat center center;
+    background-size: cover;
+}
+.p1 .p1-container .p1-container-top{
+    width: 100%;
+    height: 20%;
+    background: url("../images/FgZ51JSg4j4l3Vdm4mj6FQoQRQwA.png") no-repeat center -20px;
+}
+.p1 .p1-container .p1-container-middle{
+    width: 100%;
+    height: 105px;
+    /*background-color: #fff;*/
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -53px;
+}
+.p1 .p1-container .p1-container-middle .p1-left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: right;
+}
+.p1 .p1-container .p1-container-middle .p1-left>img{
+    width: 50px;
+    height: 105px;
+}
+.p1 .p1-container .p1-container-middle .p1-right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: left;
+}
+.p1 .p1-container .p1-container-middle .p1-right>img{
+    width: 50px;
+    height: 105px;
 }
 
 
