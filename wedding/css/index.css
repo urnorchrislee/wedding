@@ -1,0 +1,76 @@
+@charset "UTF-8"; /*GBK GB2312*/
+html, body, section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+section{
+    position: relative;
+}
+
+section.p1{
+    background: black;
+}
+
+section.p2{
+    background: green;
+}
+
+section.p3{
+    background: blue;
+}
+
+section.p4{
+    background: yellow;
+}
+
+section.p5{
+    background: pink;
+}
+
+/*
+  GPS
+*/
+.gps{
+    width: 10px;
+    height: 140px;
+    position: fixed;
+    top:50%;
+    right: 20px;
+    margin-top: -70px;
+    /*background-color: red;*/
+}
+
+.gps li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    margin-bottom: 22px;
+}
+
+.gps li:last-child{
+    margin-bottom: 0;
+}
+
+.gps li.cur{
+    background-color: #fff;
+}
+
+#scroll{
+    position: absolute;
+    width: 29px;
+    height: 31px;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -15px;
+    animation: upAndDown 0.8s infinite alternate;
+    display: block;
+}
+
+@keyframes upAndDown {
+    0%{transform:translateX(0px) translateY(10px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1)}
+    100%{transform:translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1)}
+}
+
+
